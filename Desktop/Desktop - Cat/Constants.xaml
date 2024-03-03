@@ -20,15 +20,15 @@
     <Color x:Key="TextColor">#4c4f69</Color>
     <Color x:Key="TextColorDarker">#5c5f77</Color>
     <Color x:Key="TextColorDark">#6c6f85</Color>
-    <Color x:Key="MainColor">#8839ef</Color>
+    <Color x:Key="MainColor">#8c8fa1</Color>
     <Color x:Key="MainColorDark">#eff1f5</Color>
-    <Color x:Key="HoverColor">#04a5e5</Color>
-    <Color x:Key="GlyphColor">#55CDFF</Color>
-    <Color x:Key="HighlightGlyphColor">#8855CDFF</Color>
-    <Color x:Key="PopupBackgroundColor">#dc8a78</Color>
-    <Color x:Key="PopupBorderColor">#8839ef</Color>
-    <Color x:Key="BackgroundToneColor">#dc8a78</Color>
-    <Color x:Key="GridItemBackgroundColor">#acb0be</Color>
+    <Color x:Key="HoverColor">#7287fd</Color>
+    <Color x:Key="GlyphColor">#7287fd</Color>
+    <Color x:Key="HighlightGlyphColor">#ccd0da</Color>
+    <Color x:Key="PopupBackgroundColor">#8c8fa1</Color>
+    <Color x:Key="PopupBorderColor">#7c7f93</Color>
+    <Color x:Key="BackgroundToneColor">#9ca0b0</Color>
+    <Color x:Key="GridItemBackgroundColor">#7287fd</Color>
     <Color x:Key="PanelSeparatorColor">#ccd0da</Color>
     <Color x:Key="WindowPanelSeparatorColor">#7c7f93</Color>
     <Color x:Key="DataChangeNotifColor">#df8e1d</Color>
@@ -45,11 +45,11 @@
     <SolidColorBrush x:Key="HighlightGlyphBrush" Color="{DynamicResource HighlightGlyphColor}" />
     <SolidColorBrush x:Key="PopupBorderBrush" Color="{DynamicResource PopupBorderColor}" />
     <SolidColorBrush x:Key="TooltipBackgroundBrush" Color="{DynamicResource BackgroundToneColor}" />
-    <SolidColorBrush x:Key="ButtonBackgroundBrush" Color="#0a0e1e" />
+    <SolidColorBrush x:Key="ButtonBackgroundBrush" Color="#bcc0cc" />
     <SolidColorBrush x:Key="GridItemBackgroundBrush" Color="{DynamicResource GridItemBackgroundColor}" />
     <SolidColorBrush x:Key="PanelSeparatorBrush" Color="{DynamicResource PanelSeparatorColor}" />
     <SolidColorBrush x:Key="WindowPanelSeparatorBrush" Color="{DynamicResource WindowPanelSeparatorColor}" />
-    <SolidColorBrush x:Key="PopupBackgroundBrush" Color="#1f2847" />
+    <SolidColorBrush x:Key="PopupBackgroundBrush" Color="#acb0be" />
     <SolidColorBrush x:Key="CheckBoxCheckMarkBkBrush" Color="{DynamicResource MainColorDark}" />
     <SolidColorBrush x:Key="DataChangeNotifBrush" Color="{DynamicResource DataChangeNotifColor}" />
 
@@ -57,15 +57,15 @@
     <SolidColorBrush x:Key="NegativeRatingBrush" Color="#ff6b6b" />
     <SolidColorBrush x:Key="MixedRatingBrush" Color="#fffca1" />
 
-    <SolidColorBrush x:Key="WarningBrush" Color="#ff6b6b" />
+    <SolidColorBrush x:Key="WarningBrush" Color="#d20f39" />
 
     <LinearGradientBrush x:Key="ExpanderBackgroundBrush" StartPoint="-0.1,0.5" EndPoint="1.2,1" >
-        <GradientStop Color="#FF2C3A67" Offset="0"/>
-        <GradientStop Color="#002C3A67" Offset="0.7"/>
+        <GradientStop Color="#ccd0da" Offset="0"/>
+        <GradientStop Color="#00acb0be" Offset="0.7"/>
     </LinearGradientBrush>
 
     <LinearGradientBrush x:Key="WindowBackgourndBrush" StartPoint="0.5,-0.2" EndPoint="0.4,1" >
-        <GradientStop Color="#ea76cb" Offset="0"/>
+        <GradientStop Color="#dce0e8" Offset="0"/>
         <GradientStop Color="{DynamicResource MainColorDark}" Offset="0.4"/>
     </LinearGradientBrush>
 </ResourceDictionary>
